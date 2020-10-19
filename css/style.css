@@ -457,44 +457,35 @@ body {
   line-height: 19px;
   display: flex;
   align-items: center;
-  text-indent: 20px;
   color: rgba(51, 51, 51, 0.5);
   height: 50px;
+  padding-left: 10px;
 }
-.book-a-table-form select {
-  width: 45%;
-  margin: 5px;
-  background: #E5E5E5;
+.book-a-table-button {
+  width: 96%;
+  height: 60px;
+  background: #E8C300;
   border-radius: 5px;
+  margin-top: 5px;
+  margin-left: 5px;
+  text-transform: uppercase;
+  color: white;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 20px;
   border: none;
   outline: none;
+}
+.book-a-table-footer {
+  text-align: center;
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
-  line-height: 19px;
-  display: flex;
-  align-items: center;
-  text-indent: 20px;
+  font-size: 12px;
+  line-height: 12px;
+  text-align: center;
   color: rgba(51, 51, 51, 0.5);
-  height: 50px;
-}
-.option {
-  width: 45%;
-  margin: 5px;
-  background: #E5E5E5;
-  border-radius: 5px;
-  border: none;
-  outline: none;
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 19px;
-  display: flex;
-  align-items: center;
-  text-indent: 20px;
-  color: rgba(51, 51, 51, 0.5);
-  height: 50px;
 }
 
