@@ -271,6 +271,10 @@ body {
   border: 20px solid #E8C300;
   filter: drop-shadow(0px 0px 100px rgba(0, 0, 0, 0.5));
   border-radius: 5px;
+  transition: all 1s ease-in-out;
+}
+.about-us-img:hover::after {
+  right: 300px;
 }
 .our-team {
   width: 100%;
@@ -487,5 +491,112 @@ body {
   line-height: 12px;
   text-align: center;
   color: rgba(51, 51, 51, 0.5);
+  padding-bottom: 30px;
+}
+.specialties {
+  height: 100vh;
+  width: 100%;
+  background: url(../img/specialities-bgr.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+.specialties-content {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+  align-items: center;
+}
+.specialties-title {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: 0.5em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding-top: 50px;
+}
+.swiper-container {
+  width: 100%;
+}
+.specialties-content-img {
+  width: 475px;
+  height: 475px;
+  transform: translateX(10%);
+  background: url(../img/specialities-img.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.specialties-content-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  text-align: center;
+  flex-basis: 50%;
+}
+.specialties-content-img::before {
+    position: absolute;
+    left: -50px;
+    top: 145px;
+    content: '';
+    display: block;
+    width: 150px;
+    height: 150px;
+    background-color: transparent;
+    border: 20px solid #E8C300;
+    filter: drop-shadow(0px 0px 100px rgba(0, 0, 0, 0.5));
+    border-radius: 5px;
+}
+.specialties-text-title {
+  font-family: 'Banny';
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.specialties-text-title::after {
+  display: block;
+  content: '';
+  width: 60px;
+  height: 5px;
+  background-color: #e8c300;
+  border-radius: 50px;
+  margin-top: 20px;
+}
+.specialties-description1 {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: white;
+  margin-bottom: 20px;
+}
+.specialties-description2 {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 20px;
 }
 

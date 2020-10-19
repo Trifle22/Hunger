@@ -204,9 +204,9 @@
   font-weight: normal;
   font-size: 14px;
   line-height: 19px;
+  padding-left: 0;
 }
 
-/* .focus class is also added on hover */
 
 .dropdown li.focus{
 	position: relative;
